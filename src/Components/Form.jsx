@@ -15,9 +15,7 @@ export default function Form (){
 
   const handleSubmit = (e) => {
     e.preventDefault()
-
-
-    alert(JSON.stringify(values))
+    console.log(values);
   }
   
   const { name, email, gender } = values
